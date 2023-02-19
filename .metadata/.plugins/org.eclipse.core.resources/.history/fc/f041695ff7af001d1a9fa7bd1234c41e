@@ -1,0 +1,23 @@
+package algoritmo44;
+
+import java.util.Scanner;
+
+public class Algoritmo44 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Entre com o logaritmando: ");
+		double numero = sc.nextDouble();
+		System.out.println("Entre com a base: ");
+		double base = sc.nextDouble();
+
+		double logaritmo = Math.log(numero) / Math.log(base);
+
+		System.out.printf("O logaritino de " + numero, "na base " + base, ": " + logaritmo);
+
+		sc.close();
+
+	}
+
+}
